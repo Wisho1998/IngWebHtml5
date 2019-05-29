@@ -23,26 +23,26 @@ var informacion = {
 fondo.imagen.src = "img/carnet-universitario.png";
 fondo.imagen.addEventListener("load", cargarFondo);
 
-informacion.imagen.src = "img/foto-carnet.png";
-btn.addEventListener("click", cargarDatosInputs);
+// informacion.imagen.src = "img/foto-carnet.png";
+// btn.addEventListener("click", cargarDatosInputs);
 
 function cargarFondo() {
     fondo.cargaOk = true;
     dibujar();
 }
 
-function cargarDatosInputs() {
+// function cargarDatosInputs() {
 
-    informacion.nombre = document.getElementById("nombre").value;
-    informacion.apellido = document.getElementById("apellido").value;
-    informacion.facultad = document.getElementById("facultad").value;
-    informacion.carrera = document.getElementById("carrera").value;
-    informacion.dni = document.getElementById("dni").value;
-    informacion.codigo = document.getElementById("codigo").value;
-    informacion.foto = document.getElementById("foto").value;
-    informacion.cargaOk = true;
-    dibujar();
-}
+//     informacion.nombre = document.getElementById("nombre").value;
+//     informacion.apellido = document.getElementById("apellido").value;
+//     informacion.facultad = document.getElementById("facultad").value;
+//     informacion.carrera = document.getElementById("carrera").value;
+//     informacion.dni = document.getElementById("dni").value;
+//     informacion.codigo = document.getElementById("codigo").value;
+//     informacion.foto = document.getElementById("foto").value;
+//     informacion.cargaOk = true;
+//     dibujar();
+// }
 
 function dibujar() {
     lienzo.clearRect(0, 0, canva.width, canva.height);
