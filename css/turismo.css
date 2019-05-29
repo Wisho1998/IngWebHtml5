@@ -32,4 +32,10 @@ p {
 
 #gp {
     border-left: 3px solid #4a52ff;
+    padding-left: 5px;
+}
+
+#jh {
+    border-left: 3px solid #ff6d9d;
+    padding-left: 5px;
 }
